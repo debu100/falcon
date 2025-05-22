@@ -11,3 +11,8 @@ Text Domain: falcon
 Tags: blog, theme, wordpress theme
 
 */
+
+body{
+    color: white;
+    background-color: black;
+}
