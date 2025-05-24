@@ -29,7 +29,7 @@ function falcon_enqueue_scripts(){
                 'in_footer' => true
                 ));
 
-            wp_register_script('bootstrap-js', get_template_directory_uri().'/assets/src/libraries/js/bootstrap.min.js',['jquery'],array(
+            wp_register_script('bootstrap-js', get_template_directory_uri().'/assets/src/libraries/js/bootstrap.bundle.min.js',['jquery'],array(
                 'strategy'  => 'defer',
                 'in_footer' => true
                 ));

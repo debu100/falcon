@@ -16,6 +16,13 @@
      <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
+    <!-- navbar -->
+     <div class="site" id="page">
+        <header  id="masthead" class="site-header" role="banner">
+            <?php get_template_part('./template-parts/header/nav') ?>
+        </header>
+        <div id="content" class="site-content">
+
+
     <!-- insert custom scripts for Google Analtics or Facebook Pixels -->
     <?php wp_body_open() ?>
-    <header>Header</header>

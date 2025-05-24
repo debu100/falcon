@@ -65,3 +65,40 @@ in_footer bool
 Optional. Whether to print the script in the footer. Default 'false'.
 Default:array()
 */
+
+<!-- get_template_part( $slug, $name = null ); -->
+
+/*
+?A namespace in PHP is a way to group related code and avoid naming conflicts between classes, functions, or constants—especially useful in large codebases or when using third-party libraries.
+*/
+
+/*
+
+namespace MyTheme\Utilities;
+
+class Helper {
+    public static function do_something() {
+        return 'Did something!';
+    }
+}
+
+*/
+
+/*
+
+? ✅ Benefits:
+? Prevents name collisions (e.g., two classes named Helper in different parts of the project).
+
+? Makes the code more modular and organized.
+
+*/
+
+/*
+
+? 🔹 2. What is an Autoloader?
+
+? An autoloader automatically loads PHP classes or files when they're needed—without requiring a manual require or include.
+
+? spl_autoload_register() this is the function needed to set up an autoloader
+
+*/
